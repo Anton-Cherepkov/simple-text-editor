@@ -830,7 +830,7 @@ void replace_substring_handler(instance *inst)
     uint replacement_len;
     int parse_replacement_res;
 
-    wchar_t *accumulator;
+    wchar_t *accumulator = NULL;
 
     line *new_lines;
     line *new_lines_finish;
